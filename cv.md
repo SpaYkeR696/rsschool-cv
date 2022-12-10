@@ -6,10 +6,10 @@
 
 
 ## Info
-Unfortunately, I have no work experience, I'm just learning and striving for something new and interesting, I want to learn new things and improve my skills
+Unfortunately, I have no work experience, I'm just learning and striving for something new and interesting, I want to learn new things and improve my skills.
 
 ## Skills
-HTML, CSS
+HTML, CSS.
 
 ## Code
 '''
@@ -37,10 +37,10 @@ else
 '''
 
 ## Work experience
-Missing
+Missing.
 
 ## Education
-Passed a course in HTML, CSS, and not a complete course in Javascript
+Passed a course in HTML, CSS, and not a complete course in Javascript.
 
 ## English language no more than A-2
 
