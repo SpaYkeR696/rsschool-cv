@@ -1,4 +1,140 @@
 body {
     margin: 0 auto;
     padding: 0 auto;
+    font-family: 'Ubuntu';
+    background: #272626;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.container-center{
+    margin: 20px auto;
+    width: 1024px;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #5a5757;
+    color: #e2dfdf;
+    box-shadow: 10px 10px 40px -1px rgba(255, 255, 255, 0.23);
+}
+
+.two-columns {
+    display: flex;
+}
+
+.left-column {
+    width: 42%;
+}
+
+.right-column {
+    width: 58%;
+    padding: 20px;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    background: #9b9999;
+}
+
+header img {
+    margin-bottom: 10px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+header h2 {
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+main {
+    padding: 0 40px;
+}
+
+main h3 {
+    width: 136px;
+    padding: 5px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+main li {
+    margin-bottom: 10px;
+}
+
+.contacts li img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.contacts li p {
+    display: inline;
+    vertical-align: middle;
+}
+
+.contacts li a {
+    text-decoration: none;
+    color: #e2dfdf;
+}
+
+.language-name {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.right-column h3 {
+    padding: 5px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+.right-column p {
+    letter-spacing: 1px;
+}
+
+pre {
+    margin-left: -355px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 0.8rem;
+    color: #000000;
+    background: #e2dfdf;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.github {
+    display: flex;
+    align-items: center;
+}
+  
