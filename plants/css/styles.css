@@ -1,0 +1,315 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Inika', 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 1440px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.logo {
+	margin: 52px 688px 61px 111px;
+}
+
+.menu {
+    background: #EDF2EC;
+    display: flex;
+    margin-left: auto;
+    line-height: 50px;
+    font-style: normal;
+}
+
+.menu ul {
+    display: flex;
+    margin: 42px 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    margin-left: 46px;
+    display: inline-block;
+    color:#010201;
+}
+
+.menu .home {
+    color: #E06733;
+}
+
+.desc {
+    background: #EDF2EC;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter';
+    color: #717171;
+}
+
+.desc img {
+    margin: 62px 224px 62px 109px;
+}
+
+.desc-content {
+    margin: 98px 109px 94px 0;
+    max-width: 549px;
+}
+
+.desc-content p {
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+    margin-bottom: 48px;
+}
+
+.desc-content h1 {
+    line-height: 50px;
+    font-size: 45px;
+    margin-bottom: 42px;
+}
+
+.desc-content span {
+    color:#499A18;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.content-about {
+    padding: 161px 153px 155px 109px;
+}
+
+.content-about h2 {
+    font-family: 'Inika';
+    font-size: 40px;
+    max-width: 463px;
+    color: #499A18;
+    margin-right: 134px;
+}
+
+.content-about span {
+    color: #E06733;
+}
+
+.content-about p {
+    font-family: 'Inter';
+    font-size: 20px;
+    color: #636060;
+    max-width: 605px;
+    line-height: 30px;
+}
+
+.houseplant {
+    margin: 93px 109px 94px 0;
+}
+
+.service-list {
+    background-color: #EDF2EC;
+    padding-top: 42px;
+}
+
+.list {
+    display: flex;
+}
+
+.list h2 {
+    margin-right: 142px;
+    margin-left: 109px;
+    font-size: 40px;
+    color: #499A18;
+    max-width: 306px;
+}
+
+.list ul {
+    display: flex;
+    margin-right: 38px;
+    margin-top: 30px;
+}
+
+.list ul li {
+    text-decoration: none;
+    margin-left: 46px;
+    display: inline-block;
+    color:#010201;
+}
+
+.features {
+    margin-top: 90px;
+}
+
+.features_top {
+    display: flex;
+}
+
+.features_bottom {
+    display: flex;
+    margin-top: 55px;
+}
+
+.previev {
+    margin-left: 116px;
+    margin-right: -35px;
+}
+
+.previev_text_bottom {
+    border: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 121px;
+}
+
+.previev img {
+    vertical-align: middle;
+}
+
+.previev_text_top {
+    border: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.previev_text_top h3 {
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    color: #E06733;
+}
+
+.previev_text_top p {
+    text-align: center;
+    font-family: 'Inter';
+    color: #717171;
+}
+
+.previev_text_bottom h3 {
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    color: #E06733;
+}
+
+.previev_text_bottom p {
+    text-align: center;
+    font-family: 'Inter';
+    color: #717171;
+}
+
+.general_price {
+    font-family: 'Inter';
+    display: flex;
+    padding: 40px 109px;
+}
+
+.headlines {
+    display: flex;
+    margin-top: 40px;
+    margin-left: auto;
+}
+
+.headlines h2 {
+    font-family: 'Inter';
+    font-size: 40px;
+}
+
+.headline {
+    margin-right: 635px;
+    margin-bottom: 60px;
+}
+
+.headlines .text {
+    text-align: right;
+}
+
+.headlines span {
+    color: #499A18;
+}
+
+.help_us {
+    margin-left: auto;
+}
+
+.help_us .sum {
+    color: #000;
+}
+
+.help_us img {
+    margin-left: 729px; 
+    margin-top: 39px;
+} 
+
+.wrapper {
+    display: flex;
+    background: #EDF2EC;
+}
+
+.wrapper img {
+    margin-top: 53px;
+    margin-left: 109px;
+}
+
+.wrapper h2 {
+    color: #499A18;
+    font-size: 40px;
+    margin-top: 60px;
+    margin-left: 113px;
+}
+
+.contact_us {
+    margin-top: 148px;
+    margin-left: 64px;
+}
+
+
+
+footer .container {
+    display: flex;
+    padding: 40px 109px;
+    align-items: center;
+    font-family: 'Inter';
+    font-size: 20px;
+}
+
+.year {
+    margin-left: 20px;
+}
+
+.git {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.rolling {
+    margin-left: 324px;
+}
+
+.logo_img {
+    margin-left: 317px;
+ }
