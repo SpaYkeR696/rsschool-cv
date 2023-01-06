@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="style.css">
+    <title>CV Rsshool</title>
+</head>
+<body>
+    <div class="container-center">
+        <div class="two-columns">
+            <div class="left-columns">
+                <header>
+                    <img src="./assets/img/avatar.jpg" alt="мой аватар" width="330" height="350">
+                    <h1>Nick Meshcheriakov</h1>
+                    <h2>Student RSSchool</h2>
+                </header>
+                <main>
+                    <section class="contacts">
+                        <div class="container">
+                            <h3>Contacts</h3>
+                            <ul>
+                                <li>
+                                    <img src="./assets/svg/phone.svg" alt="phone icon" width="30" height="30">
+                                    <p>+(996)997-100-695</p>
+                                </li>
+                                <li>
+                                    <img src="./assets/svg/email.svg" alt="email logo" width="30" height="30">
+                                    <p>spayker666999@gmail.com</p>
+                                </li>
+                                <li>
+                                    <img src="./assets/svg/telegram.svg" alt="telegram logo" width="30" height="30">
+                                    <a href="https://t.me/Spayker669" target="_blank">@Spayker669</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="skills">
+                        <div class="container">
+                            <h3>Skills</h3>
+                            <ul>
+                                <li>HTML5, CSS3</li>
+                                <li>JavaScript Basics</li>
+                                <li>Git, GitHub</li>
+                                <li>VS Code</li>
+                                <li>Figma</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="languages">
+                        <div class="container">
+                            <h3>Languages</h3>
+                            <ul>
+                                <li>
+                                    <p class="language-name">Russian</p>
+                                    <p>Native</p>
+                                </li>
+                                <li>
+                                    <p class="language-name">English</p>
+                                    <p>Basic</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </main>
+            </div>
+            <aside class="right-column">
+                <section class="about-myself">
+                    <div class="container">
+                        <h3>About Myself</h3>
+                        <p>After graduation, he worked as a ship mechanic for a long time. The position in which I worked did not imply career growth and significant promotion and serious qualitative leaps in professional activity.In parallel with work, I began to study Frontend technologies.</p>
+                        <p>In the process of studying, I realized that the IT industry is very interesting to me, that I can be as effective as possible only here. 
+                            At the moment, I continue my studies, practice layout and study JS.
+                            So far, unfortunately, there is no commercial experience, but there is a desire and desire to learn and grow in this area :)
+                        </p>
+                    </div>
+                </section>
+                <section class="courses">
+                    <div class="cintainer">
+                        <h3>Courses</h3>
+                        <ul>
+                            <li>Intensively attends HTML Academy. (Basic HTML and CSS, Advanced HTML and CSS)</li>
+                            <li>Marathon on WAYUP for layout (HTML and CSS)</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="code-example">
+                    <div class="container">
+                        <h3>Code example</h3>
+                        <p>I did not do a lot of practice in JS, namely the review carousel</p>
+                        <pre>
+                            <code>
+                                const scroller = document.querySelector('.scroller');
+                                const nextBtn = document.querySelector('.btn.next');
+                                const prevBtn = document.querySelector('.btn.prev');
+                                const itemWidth = document.querySelector('.item').clientWidth;
+
+                                nextBtn.addEventListener('click', scrollToNextItem);
+                                prevBtn.addEventListener('click', scrollToPrevItem);
+
+                                function scrollToNextItem() {
+                                if(scroller.scrollLeft < (scroller.scrollWidth - itemWidth))
+                                scroller.scrollBy({left: itemWidth, top: 0, behavior:'smooth'});
+                                else
+                                scroller.scrollTo({left: 0, top: 0, behavior:'smooth'});
+                                }
+
+                                function scrollToPrevItem() {
+                                if(scroller.scrollLeft != 0)
+                                scroller.scrollBy({left: -itemWidth, top: 0, behavior:'smooth'});
+                                else
+                                scroller.scrollTo({left: scroller.scrollWidth, top: 0, behavior:'smooth'});
+                                }
+                            </code>
+                        </pre>
+                    </div>
+                </section>
+            </aside>
+        </div>
+        <footer>
+            <a class="github" target="_blank" href="https://github.com/SpaYkeR696">
+                <img src="./assets/svg/github.svg" alt="github logo" width="30" height="30">
+                <p>my GitHub</p>
+            </a>
+            <p>© 2022</p>
+            <a href="https://rs.school/js/" target="_blank">
+                <img src="./assets/svg/rsschool.svg" alt="rsschool logo" width="70" height="30">
+            </a>
+        </footer>
+    </div>    
+</body>
+</html>
